@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1063067790766",
+    "project_id": "chatbotai-1c53f",
+    "storage_bucket": "chatbotai-1c53f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063067790766:android:9d66df420a38062379ac3f",
+        "android_client_info": {
+          "package_name": "com.example.garfield"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063067790766-hcd4p4t78ua98tb4plamg36alnbsndhn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.garfield",
+            "certificate_hash": "1ebca8543dc605967f4e62174eaf99f0799f1abc"
+          }
+        },
+        {
+          "client_id": "1063067790766-m3j7cfo18f3pfm4ti27d9hmtgb8i7pvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB81Szk7FK2JOy1cgwssECA3Db5bzWS6RI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063067790766-m3j7cfo18f3pfm4ti27d9hmtgb8i7pvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

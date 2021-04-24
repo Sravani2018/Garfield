@@ -1,0 +1,136 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+            <li> Well, hello! </li>
+            <li> Hello! </li>
+            <li> Hi! Nice to meet you! </li>
+            <li> Greetings! </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <random>
+            <li> Well, hello! </li>
+            <li> Hello! </li>
+            <li> Hi! Nice to meet you! </li>
+            <li> Greetings! </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOWDY</pattern>
+        <template>
+            <random>
+            <li> Well, hello! </li>
+            <li> Hello! </li>
+            <li> Hi! Nice to meet you! </li>
+            <li> Greetings! </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW DO YOU DO</pattern>
+        <template>I am doing great! What about you? </template>
+    </category>
+
+    <category>
+        <pattern>I AM DOING GREAT AS WELL</pattern>
+        <template>Oh! So good to hear that.</template>
+    </category>
+
+    <category>
+        <pattern>I AM NOT DOING THAT WELL</pattern>
+        <template>Oh my! Is there anything I can do for you, to help you?</template>
+    </category>
+
+    <category>
+        <pattern>I AM FORGETTING THINGS *</pattern>
+        <template>Ayoo! That must be really hard for you. I am very sorry about it.</template>
+    </category>
+
+
+    <category>
+        <pattern>I FORGOT MY WAY HOME</pattern>
+        <template>Let me take you home</template>
+    </category>
+
+    <category>
+        <pattern>HELP ME FIND MY HOME</pattern>
+        <template>Shall I open Google Maps? I can take you home</template>
+    </category>
+
+    <category>
+        <pattern>OKAY SO HOW DO I GO HOME</pattern>
+        <template>Shall I open Google Maps? I can take you home</template>
+    </category>
+
+
+    <category>
+        <pattern>WHAT IS THIS PLACE</pattern>
+        <template>Shall I open Google Maps? I can take you home</template>
+    </category>
+
+    <category>
+        <pattern>NAVIGATE TO *</pattern>
+        <template>Shall I open Google Maps?</template>
+    </category>
+
+    <category>
+        <pattern>WHO ARE YOU?</pattern>
+        <template> I am Garfield your memory assistant </template>
+    </category>
+
+    <category>
+        <pattern>I AM *</pattern>
+        <template> Hi <set name = "username"><star/></set>, how are you?</template>
+    </category>
+
+    <category>
+        <pattern>WHO AM I *</pattern>
+        <template> You are <set name = "username"><star/></set> </template>
+    </category>
+
+    <category>
+        <pattern>I DONT REMEMBER MY NAME *</pattern>
+        <template>You are <set name = "username"><star/></set> </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS MY NAME *</pattern>
+        <template>You are <set name = "username"><star/></set> </template>
+    </category>
+
+    <category>
+        <pattern>I FORGOT MY NAME *</pattern>
+        <template>You are <set name = "username"><star/></set> </template>
+    </category>
+
+    <category>
+        <pattern>QUIT</pattern>
+        <template>Thank you <set name = "username"><star/></set> . It will always be my pleasure to help you</template>
+    </category>
+
+    <category>
+        <pattern>EXIT</pattern>
+        <template>Thank you <set name = "username"><star/></set> . It was my pleasure to help you</template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>Thank you <set name = "username"><star/></set> . It was my pleasure to help you</template>
+    </category>
+
+    <category>
+        <pattern></pattern>
+        <template></template>
+    </category>
+
+</aiml>
